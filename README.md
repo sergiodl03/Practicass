@@ -1,6 +1,6 @@
-#Práctica 1
+# Práctica 1
 
-#Configuración del Ubuntu Server.
+# Configuración del Ubuntu Server.
 
 Con este comando se cambia el nombre de ubuntu a server05
 ![aa](./capturas/captura1.png "")
@@ -18,7 +18,7 @@ Aquí podemos ver como se ha actualizado
 
 ![aa](./capturas/captura4.png "")
 
-#Configuración del Cliente Ubuntu
+# Configuración del Cliente Ubuntu
 
 Busca el diálogo de configuración y cambia el nombre del equipo a ubuntuXX
 
@@ -37,7 +37,7 @@ Comprueba que la IP se ha actualizado con el comando ip a
 ![aa](./capturas/captura8.png "")
 ![aa](./capturas/captura9.png "")
 
-#Configuración del Cliente Windows 10
+# Configuración del Cliente Windows 10
 
 Busca el diálogo de configuración y cambia el nombre del equipo a windowsXX
 
@@ -55,7 +55,7 @@ Comprueba que la IP se ha actualizado con el comando ipconfig. Para cambiar el n
 
 ![aa](./capturas/captura12.png "")
 
-#Configuración DHCP en Ubuntu Server
+# Configuración DHCP en Ubuntu Server
 
 Añade una tarjeta de red a tus 3 máquinas asociadas a la red Personal 1 (Hecho por el profesor). En las máquinas línux se etiquetará como enp4s0.
 Vas a utilizar la dirección de red: 192.168.1XX.0/24, donde XX debes sustituirlo por tu número de alumno
