@@ -43,6 +43,7 @@ Servicio de DNS
 
 - Intenta resolver las siguientes preguntas con con las 3 herramientas presentadas: host,nslookup y dig.
   - Busca la IP asignada
+  ![aa](./capturas/captura23.png "")
   - Quien resuelve su DNS
   - Cuál es el servidor de correo electrónico. Si hay varios, determina cual es primero por su prioridad.
   - Haz la búsqueda de forma autorizada, es decir, que el servidor que contesta sea uno de los registos NS del dominio.
