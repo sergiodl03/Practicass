@@ -43,6 +43,7 @@ Servicio de DNS
 
 - Intenta resolver las siguientes preguntas con con las 3 herramientas presentadas: host,nslookup y dig.
   - Busca la IP asignada
+  
   ![aa](./capturas/captura24.png "")
   ![aa](./capturas/captura25.png "")
   ![aa](./capturas/captura26.png "")
