@@ -86,6 +86,8 @@ Servicio de DNS
   - Conectándote al mismo mediante SSH
   - Utiliza las direcciones IP de tu red privada (192.168.1xx.0/24)
   - Deberás usar un fichero con un nombre similar a este: *db.miapellido.edu*
+
+  ![aa](./capturas/captura40.png "")
 - Debes definir:
   - Número de versión 1
   - Un correo de administrador dentro del dominio.
@@ -93,10 +95,18 @@ Servicio de DNS
   - Dos registros NS con máquinas del propio dominio (por ejemplo *dns1* y *dns2*).
   - Varios registros A, al menos: *www, dns1, dns2*
   - Un registro CNAME asociado a la misma dirección que *www*
+
+  ![aa](./capturas/captura41.png "")
+
 - Para comprobar que tu configuración es correcta debes:
   - Usar el comando de verificación sintáctica.
   - Reiniciar el servicio
   - Probar la resolución usando nslookup y dig. Ojo, la resolución de nombres debe correr a cargo del servidor Ubuntu.
+
+  ![aa](./capturas/captura42.png "")
+
+  ![aa](./capturas/captura43.png "")
+
 - Trabajo extra. Para mejorar tu calificación se te propone:
   - Añadir una zona de resolución inversa
   - Instalar Bind9 en el cliente Ubuntu y definirlo como DNS esclavo del primero.
