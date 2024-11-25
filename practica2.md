@@ -43,10 +43,20 @@ Servicio de DNS
 
 - Intenta resolver las siguientes preguntas con con las 3 herramientas presentadas: host,nslookup y dig.
   - Busca la IP asignada
-  ![aa](./capturas/captura23.png "")
+  ![aa](./capturas/captura24.png "")
+  ![aa](./capturas/captura25.png "")
+  ![aa](./capturas/captura26.png "")
+
   - Quien resuelve su DNS
   - Cuál es el servidor de correo electrónico. Si hay varios, determina cual es primero por su prioridad.
+  ![aa](./capturas/captura28.png "")
+  ![aa](./capturas/captura29.png "")
+  ![aa](./capturas/captura30.png "")
+
   - Haz la búsqueda de forma autorizada, es decir, que el servidor que contesta sea uno de los registos NS del dominio.
+  ![aa](./capturas/captura31.png "")
+  ![aa](./capturas/captura32.png "")
+  ![aa](./capturas/captura33.png "")
 
 ### Suplantar servicio DNS localmente.
 
@@ -54,8 +64,13 @@ Servicio de DNS
   - `miapellido.local` asociado a la dirección 127.0.0.1
   - `miapellido.es` asociado a una dirección pública inventada.
   - `miapellido.com` asociado a la dirección del dominio de la primera parte de la práctica. Si eres el nº 1 sería `github.com`
+  ![aa](./capturas/captura34.png "")
+
 - Comprueba la resolución de los tres registros con alguna de las herramientas de diagnóstico.
+![aa](./capturas/captura35.png "")
+
 - Comprueba la misma resolución pero haciendo que el servidor consultado sea el 8.8.8.8
+![aa](./capturas/captura36.png "")
 
 ### Configuración del servidor  DNS con BIND9
 
