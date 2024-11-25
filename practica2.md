@@ -50,6 +50,7 @@ Servicio de DNS
 
   - Quien resuelve su DNS
 
+
   ![aa](./capturas/captura37.png "")
   ![aa](./capturas/captura39.png "")
   ![aa](./capturas/captura38.png "")
@@ -88,6 +89,9 @@ Servicio de DNS
   - Deberás usar un fichero con un nombre similar a este: *db.miapellido.edu*
 
   ![aa](./capturas/captura40.png "")
+
+  sudo cp /etc/bind/db.local /etc/bind/db.dominguez.com
+  
 - Debes definir:
   - Número de versión 1
   - Un correo de administrador dentro del dominio.
