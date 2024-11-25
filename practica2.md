@@ -43,12 +43,18 @@ Servicio de DNS
 
 - Intenta resolver las siguientes preguntas con con las 3 herramientas presentadas: host,nslookup y dig.
   - Busca la IP asignada
-  
+
   ![aa](./capturas/captura24.png "")
   ![aa](./capturas/captura25.png "")
   ![aa](./capturas/captura26.png "")
 
   - Quien resuelve su DNS
+
+  ![aa](./capturas/captura37.png "")
+  ![aa](./capturas/captura39.png "")
+  ![aa](./capturas/captura38.png "")
+
+
   - Cuál es el servidor de correo electrónico. Si hay varios, determina cual es primero por su prioridad.
   ![aa](./capturas/captura28.png "")
   ![aa](./capturas/captura29.png "")
