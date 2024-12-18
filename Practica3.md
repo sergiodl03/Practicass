@@ -21,7 +21,7 @@ Es una práctica, no un examen. Estoy para resolver dudas y para ayudar.
   - El cliente va a usar su tarjeta **enp4s0**. Con la ip que tiene 192.168.x.100
   - El servidor web está conectado a la red personal como el cliente con la tarjeta **enp3s0**. Viene con una IP estática 192.168.0.2. Debéis cambiar el tercer dígito para que se adapte a vuestra red: 192.168.x.2.
 
-![aa](./capturas/captura44.png "")
+![aa](./capturas/Captura44.png "")
 ## Sitios web
 
 Vamos a configurar 4 sitios web
@@ -44,33 +44,33 @@ Debes configurar tu fichero hosts en el cliente para poder conectarte a ellos.
 
 - Servidor Apache
 - Puerto 80.
-![aa](./capturas/captura45.png "")
-![aa](./capturas/captura46.png "")
-![aa](./capturas/captura47.png "")
+![aa](./capturas/Captura45.png "")
+![aa](./capturas/Captura46.png "")
+![aa](./capturas/Captura47.png "")
 
 ## Sitio 2
 
 - Servidor Apache
 - Puerto 80.
-![aa](./capturas/captura48.png "")
-![aa](./capturas/captura49.png "")
-![aa](./capturas/captura50.png "")
+![aa](./capturas/Captura48.png "")
+![aa](./capturas/Captura49.png "")
+![aa](./capturas/Captura50.png "")
 ## Sitio 3
 
 - Servidor Apache
 - Puerto 80.
 - Configura conexión **https** y protocolo **http/2**
-![aa](./capturas/captura51.png "")
-![aa](./capturas/captura52.png "")
-![aa](./capturas/captura53.png "")
+![aa](./capturas/Captura51.png "")
+![aa](./capturas/Captura52.png "")
+![aa](./capturas/Captura53.png "")
 ## Sitio 4
 
 - Servidor nginx
 - Puerto 8000
 - Recuerda que se activa con `ln -s /ruta/absoluta /etc/nginx/sites-enabled`
-![aa](./capturas/captura54.png "")
-![aa](./capturas/captura55.png "")
-![aa](./capturas/captura56.png "")
+![aa](./capturas/Captura54.png "")
+![aa](./capturas/Captura55.png "")
+![aa](./capturas/Captura56.png "")
 ## Proxy nginx
 
 - Configura un fichero de hostvirtual llamado proxy
